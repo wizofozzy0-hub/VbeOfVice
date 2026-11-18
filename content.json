@@ -1,0 +1,317 @@
+{
+  "structure": {
+    "title": "VibeofVice",
+    "version": "V2.0",
+    "identities": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "male",
+        "label": "Male (Jason)"
+      },
+      {
+        "id": "female",
+        "label": "Female (Lucia)"
+      },
+      {
+        "id": "lgbtq-unisex",
+        "label": "LGBTQ+ & Unisex"
+      }
+    ],
+    "globalLinks": [
+      {
+        "label": "Patch & DLC Updates",
+        "filterPack": "Vintage City Pack"
+      },
+      {
+        "label": "Boutique Map",
+        "scrollTarget": "module-store_directory"
+      },
+      {
+        "label": "Community Pulse",
+        "scrollTarget": "module-community_digests"
+      }
+    ],
+    "pillars": [
+      {
+        "id": "all",
+        "label": "All Pillars",
+        "icon": "⚡",
+        "subcategories": [
+          "Tops",
+          "Footwear",
+          "Hairstyles",
+          "Makeup",
+          "Gym Workouts",
+          "Diet & Buffs",
+          "Tattoos",
+          "Salons & Stores",
+          "Body Morph Guide",
+          "Community Trends"
+        ]
+      },
+      {
+        "id": "wardrobe",
+        "label": "Wardrobe & Fashion",
+        "icon": "👕",
+        "subcategories": [
+          "Tops",
+          "Bottoms",
+          "Footwear",
+          "Swimwear",
+          "Jewelry",
+          "Outfit Presets"
+        ]
+      },
+      {
+        "id": "beauty",
+        "label": "Beauty & Grooming",
+        "icon": "✨",
+        "subcategories": [
+          "Hairstyles",
+          "Facial Hair",
+          "Makeup",
+          "Nail Art",
+          "Tattoos"
+        ]
+      },
+      {
+        "id": "wellbeing",
+        "label": "Wellbeing & Fitness",
+        "icon": "💪",
+        "subcategories": [
+          "Gym Workouts",
+          "Diet & Buffs",
+          "Body Morph Guide",
+          "Rest & Stamina"
+        ]
+      },
+      {
+        "id": "lifestyle",
+        "label": "Lifestyle & World",
+        "icon": "🌴",
+        "subcategories": [
+          "Salons & Stores",
+          "Community Trends",
+          "NPC Reactions"
+        ]
+      }
+    ],
+    "modules": [
+      {
+        "id": "mod-1",
+        "type": "catalog_grid",
+        "title": "All Catalog Items",
+        "enabled": true
+      },
+      {
+        "id": "mod-2",
+        "type": "community_digests",
+        "title": "Vice City Community Pulse & Style Digests",
+        "enabled": true
+      },
+      {
+        "id": "mod-3",
+        "type": "store_directory",
+        "title": "Leonida Salons, Boutiques & Wellness Directory",
+        "enabled": true
+      }
+    ],
+    "ads": {
+      "enabled": true,
+      "topHeadline": "SPONSORED // Customize Your Leonida Setup — Vice Neon Controller Skins & RGB Gear",
+      "topUrl": "#partner",
+      "feedHeadline": "PARTNER SPOTLIGHT // Explore High-Speed Cloud Gaming & Vice City Companion Maps",
+      "feedUrl": "#partner-card"
+    }
+  },
+  "catalog": [
+    {
+      "id": "item-101",
+      "title": "Vintage Vice City Sequin & Pastel Set",
+      "pillar": "wardrobe",
+      "subcategory": "Outfit Presets",
+      "identities": [
+        "male",
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Vintage City Pack",
+      "location": "STOCK 305",
+      "price": "DLC Benefit",
+      "gradient": "from-[#FF9B55] to-[#F36A78]",
+      "bannerText": "Vintage Vice City",
+      "imageUrl": "",
+      "desc": "Lucia's crimson sequin evening dress with curled styling alongside Jason's 80s pastel coastal suit.",
+      "tags": [
+        "#VintagePack",
+        "#Lucia",
+        "#Jason"
+      ],
+      "source": "n8n",
+      "locked_by_admin": true,
+      "pinned": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-102",
+      "title": "Neon Nights Stiletto Boots",
+      "pillar": "wardrobe",
+      "subcategory": "Footwear",
+      "identities": [
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Base Game",
+      "location": "Port Gellhorn",
+      "price": "$890",
+      "gradient": "from-[#F36A78] to-[#C9349B]",
+      "bannerText": "Stiletto Boots",
+      "imageUrl": "",
+      "desc": "Knee-high reflective patent boots with subtle underglow accents reactive to Ocean Drive club lighting.",
+      "tags": [
+        "#Footwear",
+        "#Clubwear",
+        "#Nightlife"
+      ],
+      "source": "n8n",
+      "locked_by_admin": false,
+      "pinned": false,
+      "sort_order": 2
+    },
+    {
+      "id": "item-103",
+      "title": "Vice City Body Morph & Stamina Guide",
+      "pillar": "wellbeing",
+      "subcategory": "Body Morph Guide",
+      "identities": [
+        "male",
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Base Game",
+      "location": "Vice Beach Gym",
+      "price": "Free Guide",
+      "gradient": "from-[#0F6B8A] to-[#3B63D6]",
+      "bannerText": "Body Morph Guide",
+      "imageUrl": "",
+      "desc": "Step-by-step roadmap covering bench presses, cardio routines, protein recovery, and in-game phone fitness stats.",
+      "tags": [
+        "#Morph",
+        "#Gym",
+        "#Stamina"
+      ],
+      "source": "n8n",
+      "locked_by_admin": true,
+      "pinned": false,
+      "sort_order": 3
+    },
+    {
+      "id": "item-104",
+      "title": "Sara's Unisex Salon & Nail Lounge",
+      "pillar": "beauty",
+      "subcategory": "Hairstyles",
+      "identities": [
+        "male",
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Base Game",
+      "location": "Hamlet District",
+      "price": "Varies",
+      "gradient": "from-[#C9349B] to-[#7B208F]",
+      "bannerText": "Sara's Unisex Salon",
+      "imageUrl": "",
+      "desc": "Inclusive gender-neutral grooming lounge offering natural hair growth styling, acrylic nails, makeup, and fades.",
+      "tags": [
+        "#UnisexSalon",
+        "#Nails",
+        "#Inclusive"
+      ],
+      "source": "n8n",
+      "locked_by_admin": true,
+      "pinned": false,
+      "sort_order": 4
+    },
+    {
+      "id": "item-105",
+      "title": "50+ Leonida Ink & Sleeve Studio Guide",
+      "pillar": "beauty",
+      "subcategory": "Tattoos",
+      "identities": [
+        "male",
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Base Game",
+      "location": "Vice Ink Parlors",
+      "price": "$150+",
+      "gradient": "from-[#3B63D6] to-[#7B208F]",
+      "bannerText": "Leonida Ink Parlors",
+      "imageUrl": "",
+      "desc": "Complete forearm, collarbone, and full-back tattoo placement catalog with muscle-morph scaling.",
+      "tags": [
+        "#Tattoos",
+        "#CustomInk"
+      ],
+      "source": "n8n",
+      "locked_by_admin": false,
+      "pinned": false,
+      "sort_order": 5
+    },
+    {
+      "id": "item-106",
+      "title": "Mami's Grocery Nutrition & Buffs",
+      "pillar": "wellbeing",
+      "subcategory": "Diet & Buffs",
+      "identities": [
+        "male",
+        "female",
+        "lgbtq-unisex"
+      ],
+      "pack": "Base Game",
+      "location": "Little Havana",
+      "price": "$25",
+      "gradient": "from-[#FFB458] to-[#F87572]",
+      "bannerText": "Diet & Buffs",
+      "imageUrl": "",
+      "desc": "How fresh produce, Cuban coffee, and hydration balance calorie intake and boost stamina recovery.",
+      "tags": [
+        "#Nutrition",
+        "#Buffs",
+        "#Wellness"
+      ],
+      "source": "n8n",
+      "locked_by_admin": false,
+      "pinned": false,
+      "sort_order": 6
+    }
+  ],
+  "digests": [
+    {
+      "id": "dig-1",
+      "community": "r/transgamers",
+      "threadTitle": "Lucia's Hair Growth & Unisex Salon Options in Vice City",
+      "affirmationTag": "98% Community Affirmation",
+      "bullets": [
+        "Sara's Unisex Salon allows mixing any hairstyle, nail art, and makeup palette across characters without restrictions.",
+        "Hair grows naturally over in-game days and can be trimmed at safehouses or restyled at salons.",
+        "Players praise the neon twilight lighting and accurate color rendering across custom outfits."
+      ]
+    },
+    {
+      "id": "dig-2",
+      "community": "r/GTA6",
+      "threadTitle": "Gym Workouts, Kayaking & Relationship Buffs Breakdown",
+      "affirmationTag": "94% Community Consensus",
+      "bullets": [
+        "Working out together at Vice Beach unlocks spotter animations and shared stamina recovery buffs.",
+        "Skipping sleep or over-consuming fast food visibly alters sprint endurance and clothing silhouette.",
+        "The in-game phone Fitness App logs muscle mass, cardio milestones, and nutrition balance."
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-18T17:50:58.426Z"
+}
